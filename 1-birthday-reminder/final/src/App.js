@@ -10,7 +10,7 @@ function App() {
         <h3>{people.length} birthdays today</h3>
         <List people={people} />
         {btn ? <button onClick={() => {
-          return setPeople([]), setBtn(false)
+          return (setPeople([]), setBtn(false))
         }}>clear all</button> :
           <button onClick={() => {
             return (
@@ -22,7 +22,7 @@ function App() {
 
 
       </section>
-    </main>
+    </main >
   );
 }
 
