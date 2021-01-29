@@ -17,7 +17,7 @@ function App() {
               setPeople(data), setBtn(true)
             )
           }}
-          >refresh</button>
+          >refresh </button>
         }
 
 
